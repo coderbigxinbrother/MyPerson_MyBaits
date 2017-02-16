@@ -1,0 +1,54 @@
+2016-06-03 17:26:35,949 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.PersonMapper]: 1.0
+2016-06-03 17:29:04,246 DEBUG [main] cache.RedisCache (RedisCache.java:27) - Cache an cache instance with ID:com.yc.dao.mapper.PersonMapper
+2016-06-03 17:29:04,633 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.PersonMapper]: 1.0
+2016-06-03 17:35:04,877 DEBUG [main] logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2016-06-03 17:35:05,308 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 17:35:05,309 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 17:35:05,311 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 17:35:05,311 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 17:35:05,555 DEBUG [main] cache.RedisCache (RedisCache.java:27) - Cache an cache instance with ID:com.yc.dao.mapper.PersonMapper
+2016-06-03 17:35:05,903 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.PersonMapper]: 1.0
+2016-06-03 23:32:32,365 DEBUG [main] logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2016-06-03 23:32:32,952 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:32:32,953 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:32:32,954 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:32:32,955 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:42:11,086 DEBUG [main] logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2016-06-03 23:42:11,485 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:42:11,486 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:42:11,487 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:42:11,488 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:42:13,717 DEBUG [Finalizer] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:44:16,909 DEBUG [main] logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2016-06-03 23:44:17,316 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:44:17,317 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:44:17,318 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:44:17,319 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:44:17,615 DEBUG [main] cache.RedisCache (RedisCache.java:27) - Cache an cache instance with ID:com.yc.dao.mapper.PersonMapper
+2016-06-03 23:44:18,111 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.PersonMapper]: 1.0
+2016-06-03 23:46:37,684 DEBUG [main] logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2016-06-03 23:46:38,081 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:46:38,082 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:46:38,083 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:46:38,084 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:46:38,295 DEBUG [main] cache.RedisCache (RedisCache.java:27) - Cache an cache instance with ID:com.yc.dao.mapper.PersonMapper
+2016-06-03 23:46:38,624 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.PersonMapper]: 0.0
+2016-06-03 23:46:38,668 DEBUG [main] jdbc.JdbcTransaction (JdbcTransaction.java:136) - Opening JDBC Connection
+2016-06-03 23:46:39,760 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:387) - Created connection 250393803.
+2016-06-03 23:46:39,766 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from person WHERE pid=? 
+2016-06-03 23:46:40,116 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 2(Integer)
+2016-06-03 23:46:40,212 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: PID, PNAME, PWD
+2016-06-03 23:46:40,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, a, a
+2016-06-03 23:46:40,232 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-03 23:49:04,739 DEBUG [main] logging.LogFactory (LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2016-06-03 23:49:05,180 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:49:05,181 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:49:05,181 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:49:05,182 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:316) - PooledDataSource forcefully closed/removed all connections.
+2016-06-03 23:49:05,406 DEBUG [main] cache.RedisCache (RedisCache.java:27) - Cache an cache instance with ID:com.yc.dao.mapper.PersonMapper
+2016-06-03 23:49:05,775 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.PersonMapper]: 1.0
+2016-06-03 23:49:05,800 DEBUG [main] jdbc.JdbcTransaction (JdbcTransaction.java:136) - Opening JDBC Connection
+2016-06-03 23:49:06,898 DEBUG [main] pooled.PooledDataSource (PooledDataSource.java:387) - Created connection 474797091.
+2016-06-03 23:49:06,905 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: update person SET pname=?, pwd=? where pid=? 
+2016-06-03 23:49:07,261 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: wangxin(String), a(String), 2(Integer)
+2016-06-03 23:49:07,282 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1

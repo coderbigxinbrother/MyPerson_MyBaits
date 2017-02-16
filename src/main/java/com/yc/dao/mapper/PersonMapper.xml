@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.dao.mapper.PersonMapper">
+
+
+<!-- <cache eviction="FIFO" size="512"/> -->
+    <cache type="com.yc.dao.mybatis.cache.RedisCache"/>
+
+
+    <!-- <insert id="insertStu" parameterType="com.yc.bean.Student">
+        <selectKey keyProperty="sid" resultType="Integer" order="BEFORE">
+           select stu_sid.nextval from dual
+        </selectKey>
+       insert into student values(#{sid},#{sname},#{sage},#{sex},#{address})
+    </insert> -->
+
+  
+    <select id="findPerson" parameterType="com.yc.bean.Person" resultType="com.yc.bean.Person">
+        select * from person
+        <where>
+        	<if test="pid != null">
+        		pid=#{pid}
+        	</if>
+        </where>
+	    
+    </select>
+    
+    
+    <update id="updatePerson" parameterType="com.yc.bean.Person">
+        update person
+        <set>
+            <if test="pname != null">pname=#{pname},</if>
+            <if test="pwd != null">pwd=#{pwd},</if>
+        </set>
+        where pid=#{pid}
+    </update>
+    
+</mapper>

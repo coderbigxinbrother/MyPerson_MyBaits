@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- <link rel="stylesheet" media="screen" href="styles/basic.css" /> -->
+</head>
+
+<body>
+
+	<article>
+		<h1>人员列表</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>编号</th>
+					<th>姓名</th>
+					<th>密码</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody id="content">
+
+			</tbody>
+		</table>
+	</article>
+	
+	
+	<form name="myform" id="myform" >
+		<fieldset>
+			<label for="pid">编号:</label><input id="pid" type="text" name="pid" /><br />
+			<label for="pname">姓名:</label><input id="pname" type="text" name="pname" /><br />
+			<label for="pwd">密码:</label><input id="pwd" type="text" name="pwd" /><br />
+			
+			<input type="button" id="sub" value="更新" />
+			
+		</fieldset>
+	</form>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/yclib.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+
+
+</body>
+</html>
